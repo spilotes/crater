@@ -31,10 +31,13 @@ body {
 }
 
 .crater {
-  width: 55rem;
+  width: 28rem;
   position: absolute;
-  top: 14vh;
-  left: 18vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .bakunin {
@@ -60,8 +63,6 @@ body {
   }
 
   .crater {
-    width: 40rem;
-    top: 14vh;
-    left: 1vw;
+    width: 23rem;
   }
 }
