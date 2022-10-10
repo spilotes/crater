@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sliding-background {
+  background: url(../img/bg.jpg) repeat-x;
+  height: 100vh;
+  width: 6000px;
+  animation: slide 450s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-3840px, 0, 0);
+  }
+}
+
+.crater {
+  width: 55rem;
+  position: absolute;
+  top: 14vh;
+  left: 18vw;
+}
+
+.bakunin {
+  position: absolute;
+  width: 22rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  filter: drop-shadow(0 0 1.2rem #191970);
+}
+
+@media screen and (max-width: 767px) {
+}
