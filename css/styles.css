@@ -50,13 +50,13 @@ body {
   filter: drop-shadow(0 0 1.2rem #191970);
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 414px) {
   .bakunin {
     width: 18rem;
   }
 
   .crater {
-    width: 45rem;
+    width: 40rem;
     top: 14vh;
     left: 5vw;
   }
